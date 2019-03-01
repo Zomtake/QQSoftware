@@ -121,8 +121,12 @@ nav ul li a {
     list-style: none;
     color: #094d80;
 }
+.main{
+    overflow: hidden;
+}
 .two{
     width: 600px;
+    display: inline-block;
 }
 .head{
     height: 30px;
@@ -140,6 +144,9 @@ nav ul li a {
     height: 60px;
     overflow: hidden;
     display: flex;
+}
+.cont a{
+    color: #185888;
 }
 .cont_img{
     width: 30px;
@@ -162,13 +169,52 @@ nav ul li a {
 }
 .cont_left p{
     margin-top: 5px;
-    font-size: 14px;
+    font-size: 12px;
     margin-left: 20px;
 }
 .cont_text{
     margin-top: 10px;
 }
 .cont_right{
+    padding-top: 10px;
+    text-align: right;
     width: 20%;
-       float: right;
+    float: right;
+    background: url(images/downicon.gif) 25px 15px no-repeat;
+}
+.cont_right a{
+    font-size: 12px;
+    width: 50px;
+    font-weight: 500;
+}
+.more {
+    width:30%;
+    float: right;
+    color: #185888;
+}
+.more >div:nth-child(1){
+    height: 30px;
+    border-bottom: #7acaf9 solid 1px;
+}
+.more h1{
+    display:inline-block; 
+}
+.more p {
+    float: right;
+}
+.more a{
+    background: url(images/downicon.gif) 0px 0px no-repeat;
+}
+.more_cont{
+    height: 40px;
+    line-height: 40px;
+}
+
+
+.more_cont>div:nth-child(1){
+    height: 40px;
+     display: inline-block;
+}
+.more_cont>div:nth-child(2){
+    float: right;
 }
