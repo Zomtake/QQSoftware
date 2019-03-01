@@ -1,5 +1,6 @@
 body,
 h1,
+h2,
 dl,
 dd,
 ul,
@@ -43,7 +44,7 @@ p {
 }
 
 .da dl {
-    padding-left: 50px;
+    padding-left: 76px;
     padding-top: 10px;
 }
 
@@ -58,7 +59,7 @@ dl dd {
 nav {
     background: url(images/navbg.gif) no-repeat;
     margin: 15px 0px;
-    padding: 0 8px;
+    padding: 0 30px;
 }
 
 nav ul {
@@ -71,7 +72,7 @@ nav ul li {
     text-align: center;
     line-height: 34px;
     float: left;
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -91,7 +92,83 @@ nav ul li a {
     background: url(images/home.gif) no-repeat;
 }
 .shiyan{
+    margin: 0;
     width: 100px;
     background: url(images/arrow_r.gif) 0px 8px  no-repeat;
      float: right;
+}
+.one{
+  overflow: hidden;
+  width: 920px;
+  height: 220px;
+}
+.banner {
+    float: left;
+    width: 69%;
+    height: 200px;
+}
+.news{
+    width: 31%;
+    float:right;
+}
+.news h1{
+    border-bottom: #7acaf9 solid 1px;
+    padding: 5px 0px;
+}
+.news li {
+    padding: 6px 0px;
+    font-size: 11px;
+    list-style: none;
+    color: #094d80;
+}
+.two{
+    width: 600px;
+}
+.head{
+    height: 30px;
+    color: #094d80;
+    border-bottom: #7acaf9 solid 1px;
+}
+.head h1{
+    display: inline-block;
+}
+.head p{
+    float: right;
+    font-size: 12px;
+}
+.cont{
+    height: 60px;
+    overflow: hidden;
+    display: flex;
+}
+.cont_img{
+    width: 30px;
+    height: 34px;
+    padding: 16px 0px;
+}
+.cont_left{
+    display: flex;
+    width: 80%;
+    line-height: 20px;
+}
+.cont_left a{
+    font-weight: bold;
+    margin-left: 20px;
+}
+.cont_left span{
+    margin-left: 5px;
+    font-size: 11px;
+    color: #9d9d9d
+}
+.cont_left p{
+    margin-top: 5px;
+    font-size: 14px;
+    margin-left: 20px;
+}
+.cont_text{
+    margin-top: 10px;
+}
+.cont_right{
+    width: 20%;
+       float: right;
 }
